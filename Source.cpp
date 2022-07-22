@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 const int MAXIMUM = 5000000;
+//entfet
 class Node {
 	string id, scope, type;
 	int LineNumber;
 	Node* nextNode;
+	int entfet;
 public:
 	Node(string key, string value, string type, int LineNumber)
 	{
